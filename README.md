@@ -54,4 +54,5 @@ After the candidate images, the query image embeddings are computed. We then use
 
 ## Additional Resources
 [Image Similarity with Hugging Face Datasets and Transformers](https://huggingface.co/blog/image-similarity)
+
 [Building an image similarity system with 🤗 Datasets FAISS](https://colab.research.google.com/gist/sayakpaul/5b5b5a9deabd3c5d8cb5ef8c7b4bb536/image_similarity_faiss.ipynb)
