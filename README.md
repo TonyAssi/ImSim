@@ -15,7 +15,7 @@ Import module
 from ImSim import get_similar_image
 ```
 
-Generates image embeddings and upload to 🤗
+Searches for most similar image
 - **query_image** path to query image
 - **image_path** folder containing images
 - **num** number of similar images that will be returned
