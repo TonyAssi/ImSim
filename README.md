@@ -3,14 +3,6 @@ Image Similarity Module built on top of 🤗 Datasets and Transformers
 
 Given a query image, this module will search through a folder of images for the most similar images.
 
-<script
-	type="module"
-	src="https://gradio.s3-us-west-2.amazonaws.com/3.50.2/gradio.js"
-></script>
-
-<gradio-app src="https://tonyassi-celebrity-look-a-like.hf.space"></gradio-app>
-
-
 ## Installation
 ```bash
 pip install -r requirements.txt
