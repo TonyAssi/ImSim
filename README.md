@@ -3,6 +3,8 @@ Image Similarity Module built on top of 🤗 Datasets and Transformers
 
 Given a query image, this module will search through a folder of images for the most similar images.
 
+[Celebrity Look-a-Like Demo](https://huggingface.co/spaces/tonyassi/celebrity-look-a-like)
+
 ## Installation
 ```bash
 pip install -r requirements.txt
