@@ -16,9 +16,9 @@ from ImSim import get_similar_image
 ```
 
 Generates image embeddings and upload to 🤗
-- **input_dataset** the source dataset
-- **out_dataset** the name of dataset that will be created and uploaded to
-- **token** HuggingFace write access token can be created [here](https://huggingface.co/settings/tokens)
+- **query_image** path to query image
+- **image_path** folder containing images
+- **num** number of similar images that will be returned
 ```python
 scores, retrieved_examples = get_similar_image(query_image='image.jpg',
                                                image_path='images',
