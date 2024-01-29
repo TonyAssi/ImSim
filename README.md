@@ -47,3 +47,7 @@ The module goes through the candidate images and computes the embeddings for eac
 [0.17519, -0.33182, -0.11692... 1.08443, -0.22943, 1.06595]
 ```
 The embeddings will be computed and then saved into a .csv file inside the candidate image folder. The embeddings will only be computed the first time a query is made. The subsequent queries will load the embeddings from the .csv file so it'll be much faster. 
+
+The computer vision model generating the embeddings is the famous [google/vit-base-patch16-224](https://huggingface.co/google/vit-base-patch16-224) model. It is a great general purpose encoder model. In theory you could use a vision model fine-tuned on your dataset, but I have found this model works as good if not better fine-tuned models.
+
+After the candidate images, the query image embeddings are computed. We then use a handy [get_nearest_examples()](https://huggingface.co/docs/datasets/v2.16.1/en/package_reference/main_classes#datasets.Dataset.get_nearest_examples) function built into 🤗 Datasets which will look for most similar embeddings and return the correspondings images.
