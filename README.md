@@ -38,3 +38,7 @@ Save the most similar image
 ```python
 similar_images[0].save('similar.jpg')
 ```
+
+## Theory
+This module performs image similarity by comparing the embeddings of the candidate images to the embeddings of the query image.
+
