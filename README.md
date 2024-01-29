@@ -44,4 +44,6 @@ This module performs image similarity by comparing the embeddings of the candida
 
 The module goes through the candidate images and computes the embeddings for each one. Image embeddings are a numeric representation of image which looks something like this
 
-[0.17519499361515045, -0.3318767547607422, -0.11692672967910767, 1.477181077003479... 1.0844404697418213, -0.22943206131458282, 1.0659503936767578]
+```python
+[0.17519499361515045, -0.3318767547607422, -0.11692672967910767... 1.0844404697418213, -0.22943206131458282, 1.0659503936767578]
+```
