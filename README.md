@@ -53,6 +53,6 @@ The computer vision model generating the embeddings is the famous [google/vit-ba
 After the candidate images, the query image embeddings are computed. We then use a handy [get_nearest_examples()](https://huggingface.co/docs/datasets/v2.16.1/en/package_reference/main_classes#datasets.Dataset.get_nearest_examples) function built into 🤗 Datasets which will look for most similar embeddings and return the correspondings images.
 
 ## Additional Resources
-[Image Similarity with Hugging Face Datasets and Transformers](https://huggingface.co/blog/image-similarity)
+[Image Similarity with Hugging Face Datasets and Transformers](https://huggingface.co/blog/image-similarity) (blog)
 
-[Building an image similarity system with 🤗 Datasets FAISS](https://colab.research.google.com/gist/sayakpaul/5b5b5a9deabd3c5d8cb5ef8c7b4bb536/image_similarity_faiss.ipynb)
+[Building an image similarity system with 🤗 Datasets FAISS](https://colab.research.google.com/gist/sayakpaul/5b5b5a9deabd3c5d8cb5ef8c7b4bb536/image_similarity_faiss.ipynb) (notebook)
