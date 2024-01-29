@@ -51,3 +51,7 @@ The embeddings will be computed and then saved into a .csv file inside the candi
 The computer vision model generating the embeddings is the famous [google/vit-base-patch16-224](https://huggingface.co/google/vit-base-patch16-224) model. It is a great general purpose encoder model. In theory you could use a vision model fine-tuned on your dataset, but I have found this model works as good if not better fine-tuned models.
 
 After the candidate images, the query image embeddings are computed. We then use a handy [get_nearest_examples()](https://huggingface.co/docs/datasets/v2.16.1/en/package_reference/main_classes#datasets.Dataset.get_nearest_examples) function built into 🤗 Datasets which will look for most similar embeddings and return the correspondings images.
+
+## Additional Resources
+[Image Similarity with Hugging Face Datasets and Transformers](https://huggingface.co/blog/image-similarity)
+[Building an image similarity system with 🤗 Datasets FAISS](https://colab.research.google.com/gist/sayakpaul/5b5b5a9deabd3c5d8cb5ef8c7b4bb536/image_similarity_faiss.ipynb)
