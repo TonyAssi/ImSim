@@ -24,6 +24,13 @@ scores, retrieved_examples = get_similar_image(query_image='image.jpg',
                                                image_path='images',
                                                num=4)
 ```
+
+Return values
 - **scores** list of similarity scores
 - **retrieved_examples** dictionary containing a list of most similar images and a list of most similar embeddings
-- 
+
+Get a list of the most similar images
+```python
+similar_images = retrieved_examples['image']
+```
+
