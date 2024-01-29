@@ -1,0 +1,7 @@
+transformers
+datasets
+faiss-cpu
+pillow
+datasets
+pandas
+torch
