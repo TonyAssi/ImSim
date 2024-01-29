@@ -42,7 +42,7 @@ similar_images[0].save('similar.jpg')
 ## Theory
 This module performs image similarity by comparing the embeddings of the candidate images to the embeddings of the query image.
 
-The module goes through the candidate images and computes the embeddings for each one. Image embeddings are a numeric representation of an image
+The module goes through the candidate images and computes the embeddings for each one. Image embeddings are a numeric representation of an image. They represent high level visual concepts. Here is what they look like:
 
 ```python
 [0.17519, -0.33182, -0.11692... 1.08443, -0.22943, 1.06595]
