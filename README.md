@@ -29,8 +29,12 @@ Return values
 - **scores** list of similarity scores
 - **retrieved_examples** dictionary containing a list of most similar images and a list of most similar embeddings
 
-Get a list of the most similar images
+Get a list of the most similar images. Each image is a PIL image
 ```python
 similar_images = retrieved_examples['image']
 ```
 
+Save the most similar image
+```python
+similar_images[0].save('similar.jpg')
+```
